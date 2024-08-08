@@ -1,0 +1,125 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: skyblue;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 3px;
+    margin-bottom: 10px;
+   
+   
+    
+}
+.container p:hover{
+    cursor: pointer;
+    
+
+}
+.container__img1{
+
+    height: 550px;
+    width: 300px;
+    padding: 10px;
+    border:  black solid 2px;
+    display: inline-block;
+    margin: 20px;
+    background-color: skyblue;
+    
+   
+
+}
+.imagescontainer{
+  
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-basis: 40%;
+    margin-left: 40px;
+}
+.container__img1--btn{
+   margin-left: 90px;
+   border: black solid 2px;
+   background-color: aquamarine;
+   color: black;
+   padding: 2px;
+}
+.container__img2{
+    display: inline-block;
+    height: 550px;
+    width: 300px;
+    padding: 10px;
+    border:  black solid 2px;
+    margin: 20px;
+    background-color: skyblue;
+}
+.container__img2--btn{
+    margin-left: 90px;
+    border: black solid 2px;
+    background-color: aquamarine;
+    color: black;
+    padding: 2px;
+    
+
+}
+.container__img3{
+    display: inline-block;
+    height: 550px;
+    width: 300px;
+    padding: 10px;
+    border:  black solid 2px;
+    margin: 20px;
+    background-color: skyblue;
+
+}
+.contactpage{
+    background-color: black;
+    color: skyblue;
+    display: flex;
+   justify-content: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height:80px;
+    padding: 10px;
+}
+.table{
+   display: flex;
+   justify-content: center;
+   background-color: skyblue;
+   color: black;
+   padding: 10px;
+  
+   margin-left: 20px;
+   margin-right: 20px;
+   
+}
+.container{
+    margin: 20px;
+    flex-wrap: wrap;
+}
+/* media query */
+@media screen and (min-width:800px){
+    .imagescontainer{
+        flex-basis: 40%;
+        flex-wrap: wrap;
+       
+       
+    }
+}
+
+@media screen and (max-width:600px){
+   
+    
+    .imagescontainer{
+      
+        flex-basis: 30%;
+        flex-wrap: wrap;
+    }
+
+}
+
+   
